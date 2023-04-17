@@ -91,3 +91,30 @@ let dog = {
 }
 
 console.log(dog)
+
+let cat = {
+    catName: 'John',
+    Breed: 'Ragdoll',
+    age: 6,
+    size: 'small',
+    purs: true
+}
+console.log(cat)
+
+let phone = {
+    color: 'Black',
+    type: 'Iphone',
+    gigs: '70',
+    size: 'medium',
+    Model: 'Iphone 11'
+}
+console.log(phone)
+
+let car = {
+    Engine: 'V8',
+    Paint: 'Red',
+    Type: 'Sport',
+    Loud: true,
+    Fast: true
+}
+console.log(car)
