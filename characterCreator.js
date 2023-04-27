@@ -113,4 +113,15 @@ function displayChar(char){
     console.log(`WIS: ${char.wisdom}`);
     console.log(`CHA: ${char.charisma}`);
     console.log(`----------------------`);
+
+function displayChar(char){
+    console.log(`----------------------`);
+    console.log(`Name: ${char.name}`);
+    console.log(`STR: ${char.strength}`);
+    console.log(`DEX: ${char.dexterity}`);
+    console.log(`CON: ${char.constitution}`);
+    console.log(`INT: ${char.intelligence}`);
+    console.log(`WIS: ${char.wisdom}`);
+    console.log(`CHA: ${char.charisma}`);
+    console.log(`----------------------`);
 }
