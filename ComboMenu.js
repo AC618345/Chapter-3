@@ -1,4 +1,3 @@
-const readLine = require('readline-sync');
 const readline= require('readline-sync');
 
 let order = [];
@@ -24,7 +23,7 @@ if (drink == "yes" || drink == "Yes"){
         total[1] = 1;
     } else if (order[1] == 'medium' || order[1] == 'Medium'){
         total[1] = 1.75;
-    } else if (order[1] == 'large' || order[1] == 'Large'){
+    } else if (order[1] == 'large' || order[1] == 'Large') {
         total[1] = 2.25;
     }
 } else {
@@ -60,8 +59,9 @@ sauces = readline.question('would you like a ketchup? (yes/no): ');
 if (sauces == "yes" || sauces == "Yes")
     console.log('one ketchup packet costs $0.25');
 total[3] = Number(readline.question('how many would you like: '))*.25;
-console.log(order);
-console.log(`total: $${total[0]+total[1]+total[2]+total[3]}`);
+
+    total[3] = 0;
+
 
 white = readline.question('would you like a Ranch? (yes/no): ');
 if (white == "yes" || white == "Yes")
@@ -81,7 +81,7 @@ total[6] = Number(readline.question('how many would you like: '))*.50;
 
 if (total[0] >= 1 && total[1] >= 1 && total[2] >= 1){
     total[4] = -1;
-
+}
     total[4] = 0;
 
 console.log(order);
